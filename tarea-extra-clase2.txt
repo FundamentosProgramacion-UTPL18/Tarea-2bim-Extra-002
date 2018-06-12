@@ -1,0 +1,52 @@
+
+Generar una solución en lenguaje de programación Python
+
+valores = {
+
+"Estudiante 1": {'notas':[10,10,3], 'carrera': 'Sistemas', 'edad': 20},
+"Estudiante 2": {'notas':[10,9,3], 'carrera': 'Electronica', 'edad': 19},
+"Estudiante 3": {'notas':[9,10,3], 'carrera': 'Contabilidad', 'edad': 18},
+"Estudiante 4": {'notas':[8,9,4], 'carrera': 'Sistemas', 'edad': 20},
+"Estudiante 5": {'notas':[8,8,5], 'carrera': 'Electronica', 'edad': 19},
+"Estudiante 6": {'notas':[3,10,6], 'carrera': 'Contabilidad', 'edad': 18},
+"Estudiante 7": {'notas':[2,8,7], 'carrera': 'Sistemas', 'edad': 20},
+"Estudiante 8": {'notas':[1,9,3], 'carrera': 'Economia', 'edad': 20},
+"Estudiante 9": {'notas':[9,10,2], 'carrera': 'Sistemas', 'edad': 19},
+
+}
+
+- Encontrar el promedio de cada lista de notas de los estudiantes;
+  que permita generar el siguiente reporte.
+
+  Estudiante1, tiene el promedio ?
+  Estudiante2, tiene el promedio ?
+  Estudiante3, tiene el promedio ?
+  ...
+  Estudiante9, tiene el promedio ?
+
+- Identificar cuantos estudiantes son de cada carrera, presentar el siguiente
+  reporte
+  4 estudiante de Sistemas
+  2 estudiantes de Electronica
+  1 estudiantes de Economia
+  2 estudiantes de Contabilidad
+
+
+  Importante, pueden revisar el siguiente ejemplo para manejo de listas
+
+
+  In [11]: lista1 = [1,2,3,1,2,3]
+  
+  In [12]: lista2 = list(set(lista1))
+  
+  In [13]: lista2
+  Out[13]: [1, 2, 3]
+  
+  In [14]: lista1.count(3)
+  Out[14]: 2
+
+- Calcular el promedio de edades de los estudiantes
+
+  El promedio de edad de los estudiantes es ?
+
+
